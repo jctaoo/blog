@@ -42,6 +42,9 @@ jobs:
       - name: copy gatsby content
         run: cp -R ./content ./stella
         
+      - name: copy favicon
+        run: cp ./favicon.ico ./stella/static
+        
       - name: run build
         run: (cd stella && npm run build)
       
