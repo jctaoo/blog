@@ -31,7 +31,7 @@ export default {
         },
       },
     },
-    bannerText: "Stella Demo Site",
+    bannerText: "Stella Demo Site Test",
     routeConfigurations: {
       about: {
         title: "关于",
