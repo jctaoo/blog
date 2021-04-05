@@ -31,10 +31,7 @@ jobs:
           check-latest: true
           
       - name: clone stella
-        uses: actions/checkout@v2
-        with:
-          repository: jctaoo/stella
-          path: blog/stella
+        run: git clone https://github.com/jctaoo/stella.git
           
       - name: install dependencies
         run: (cd stella && npm install)
