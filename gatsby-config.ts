@@ -18,12 +18,12 @@ export default {
     config: {
       disqus: {
         shortName: "jctaoo",
-        developmentShortName: "jctaoo-dev",
+        developmentShortName: "jctaoo",
       },
       lang: "zh",
-      host: "https://stella-demo-site.vercel.app/",
+      host: "https://blog.jctaoo.com/",
       siteName: "Jctaoo.",
-      homeLargeTitle: "Jctaoo.",
+      homeLargeTitle: "jctaoo.",
       experiment: {
         downloadWebPicture: {
           enable: true,
@@ -31,7 +31,6 @@ export default {
         },
       },
     },
-    bannerText: "Stella Demo Site Test",
     routeConfigurations: {
       about: {
         title: "关于",
